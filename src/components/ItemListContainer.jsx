@@ -12,8 +12,7 @@ const ItemListContainer = ({ saludo, greeting }) => {
     //setLoading(true)
     // data
     if (!categoriaId) { // Si NO hay un id de categoria, me trae todos los productos.
-      //fetch(`https://fakestoreapi.com/products`) // Llamo a la api, para que efectivamente me retorne una data. 
-      data
+      data // Llamo a la api, para que efectivamente me retorne una data. 
         .then((res) => res.json())// paso la respuesta de ese llamado a json.
         .then((json) => setProductList(json)); // Actualizo el estado
       console.log(productList); // Lo miro en consola

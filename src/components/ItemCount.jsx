@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 
-export default function ItemCount({initial, stock, onAdd})
+export default function ItemCount({initial, stock, onAdd, contador, setContador})
 {
-  const [contador, setContador] = useState(initial);
- 
   const subir = () => {
       setContador(contador < stock ? setContador : contador + 1);
   };
