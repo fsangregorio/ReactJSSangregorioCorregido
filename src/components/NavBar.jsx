@@ -18,6 +18,8 @@ function NavBar() {
           <br />
           <Link to="/categoria/cerveza">Cervezas</Link>
           <br />
+          <Link to="/categoria/cart">Carrito</Link>
+          <br />
         <div>
           <CartWidget/>
         </div>
