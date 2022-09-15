@@ -1,3 +1,13 @@
+
+Proyecto de Tienda Virtual de Vizzentino Picadas para curso de React, Coderhouse, 2022
+
+Realizado en Buenos Aires, Argentina por Francisco Sangregorio
+
+franciscosangregorio@hotmail.com
+
+Todos los derechos reservados
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
